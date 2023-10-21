@@ -1,4 +1,4 @@
-# nodemailer - Realizando teste simples de SMTP com Nodemailer e Bun.
+# Nodemailer - Realizando teste simples de SMTP com Nodemailer e Bun.
 
 
 -> Obs.: Não se esquça de passar a propriedade '''type'''.<br/>

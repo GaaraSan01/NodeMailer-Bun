@@ -12,7 +12,7 @@ nodemailer.createTransport({
     }
 }).sendMail({
     from:"atendimento@vnici.digital",
-    to:"vnicidigital@gmail.com",
+    to:Bun.env.CLIENT_EMAIL,
     subject: "Testando SMTP nodemailer",
     html:"<h2>Teste funcionando com sucesso!</h2>"
 }).then(response => console.log("Está funcionando", response))
